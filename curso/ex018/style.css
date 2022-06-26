@@ -1,0 +1,37 @@
+@charset 'UTF-8';
+body{
+    background-color: hotpink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    color: rgb(250, 9, 9);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: darkred;
+}
+a:hover{
+    color: chartreuse;
+    text-decoration: underline;
+}
+a:active{
+    color: black;
+}
+a::before{
+    content: "►";
+}
+a::after{
+    content: "◄";
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+}
+/*
+# = id
+. = class
+: = pseudo class
+:: = pseudo-element
+> = children
+*/

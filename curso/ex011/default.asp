@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../imagens/Keekeh.ico" type="image/x-icon">
+    <title>imagens dinâmicas, audio e video</title>
+</head>
+<body>
+    <picture>
+        <source media="(max-width:750px)" srcset="../../imagens/carinha_pequeno.jpg" type="image/jpg">
+        <source media="(max-width:1050px)" srcset="../../imagens/carinha_medio.jpg" type="image/jpg">
+        <img src="../../imagens/carinha.jpg" alt="a imagem flexivel funciona">
+    </picture>
+    <Audio preload="metadata" controls>
+        <source src="../../musicas/Nuthin' but a G Thang.mp3" type="audio/mp3">
+    </Audio><br>
+    <div.bia>
+        <video width="400" poster="../../videos/Bia.jpg" controls>
+            <source src="../../videos/Bia.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div><iframe width="560" height="315" src="https://www.youtube.com/embed/zTLOmS-OkRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <a href="../../default.asp">inicial</a>
+</body>
+</html>

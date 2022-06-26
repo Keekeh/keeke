@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>groupung tags</title>
+    <link rel="shortcut icon" href="../../imagens/Keekeh.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>testando grouping tags</h1>
+<nav>
+    <a href="#">link 1</a> <a href="#">link 2</a> <a href="#">link3</a> 
+    <a href="#">link 4</a>
+</nav>
+</header>
+<main>
+<section id="assuntos">
+    <h2>assuntos do momento</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quos dolor a nesciunt iusto, eum deserunt inventore saepe commodi laborum sequi rem aut explicabo cum et delectus tenetur expedita. Facere?<br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam illo eos praesentium consequatur sequi aspernatur minus cumque ut doloribus. Illo consequatur deserunt eveniet alias facere, ducimus natus perferendis pariatur voluptatum.</p>
+</section>
+<section id="noticias">
+    <article id="primeiro">
+        <h2>noticias sobre o Brasil</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente debitis voluptates magni esse maiores beatae deleniti nihil, incidunt vero voluptatum culpa libero voluptate! Quod, placeat? Animi, culpa. Atque, nesciunt adipisci.</p>
+        <aside>
+            Há coisas que não podemos misturar, essas coisas devem ficar em uma caixa a parte. como essas:)
+        </aside>
+    </article>
+    <article id="segundo">
+        <bdo dir="rtl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda aspernatur provident iusto dolorum ab culpa optio, libero repudiandae, odit dicta doloremque. Ex neque ratione labore, ducimus molestias minus iste suscipit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quam velit architecto incidunt. Debitis beatae vitae tenetur culpa officia dolor, eaque consectetur a ipsam vero dolorem voluptatum adipisci temporibus sequi.</bdo>
+    </article>
+</section>
+
+</main>
+<footer><a href="../../default.asp">inicial</a>
+</footer> 
+</body>
+</html>

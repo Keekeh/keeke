@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalhando com fontes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../../imagens/Keekeh.ico" type="image/x-icon">
+</head>
+<body>
+    <header><h1>trabalhando com fontes</h1></header>
+    <main>
+        <h2>work Sans from <a href="https://fonts.google.com/" target="_blank">Google Fontes</a></h2>
+        <h3>1em, bold and Italic</h3>
+        <p id="one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum modi commodi ipsa tempora, repudiandae beatae amet debitis incidunt dolorem quidem reiciendis inventore dolores, eos voluptas minus nihil maxime ullam cupiditate?</p>
+        <h2>Work Sans From <a href="https://fonts.google.com/" target="_blank">Google Fontes</a> </h2>
+        <h3>16px bolder and Oblique</h3>
+        <p id="two">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio ducimus labore magnam reiciendis atque. Ab placeat corrupti cumque eius nemo. Enim maxime in, pariatur molestiae saepe placeat sapiente aperiam voluptas.</p>
+        <h2>work Sans from <a href="https://fonts.google.com/" target="_blank">Google Fontes</a></h2>
+        <h3>font weight 900 style normal</h3>
+        <p id="trhee">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illum officia sint consequatur, voluptatibus, laborum quasi, velit ex et perspiciatis sequi numquam aperiam debitis nam harum quas temporibus quidem vitae.</p>
+        <h2>work Sans from <a href="https://fonts.google.com/" target="_blank">Google Fontes</a></h2>
+        <h3>oblique bold 1.2em</h3>
+        <p id="four">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur reiciendis tempore cupiditate veniam? Neque numquam nam recusandae, quibusdam facilis veritatis distinctio accusamus quam voluptate maxime animi a atque molestias ex.</p>
+        <h2>fonte baixada em <a href="https://www.dafont.com/pt/">Da fonte.com</a></h2>
+        <h3>font Adventure</h3>
+        <p id="five">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, laboriosam voluptates odio culpa, laudantium ipsa cum animi similique nisi ea nostrum officiis inventore blanditiis dolores? Totam illo repellat asperiores ea.</p>
+        <h2>tipos de alinhamento</h2>
+        <h3>justificado</h3>
+        <p id="six">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad tenetur culpa amet atque autem aliquid adipisci expedita. Et voluptatem nisi corrupti, quas nemo nobis possimus dolor. Architecto nesciunt natus fuga?Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui deserunt necessitatibus ducimus enim natus voluptate, voluptatem ullam facilis recusandae, rem impedit minus tempora corporis expedita perspiciatis laudantium dicta obcaecati accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus similique voluptatibus saepe nemo incidunt labore necessitatibus aliquam doloribus quasi excepturi deserunt id exercitationem dolorem autem iure, ratione corporis nihil accusamus.</p>
+        <h3>a direita</h3>
+        <p id="seven">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, assumenda praesentium omnis vero dolorem dolorum voluptatibus perspiciatis, perferendis cumque, reiciendis laboriosam! Omnis non ratione, esse architecto aut sunt voluptatem nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quam vel dolorum possimus nostrum suscipit adipisci illo culpa consequatur. Aspernatur dolore dolor reiciendis et inventore error at voluptates minus natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nulla pariatur voluptatum dolore iusto debitis architecto blanditiis laboriosam, repellendus, suscipit necessitatibus! Dolorem nulla ab asperiores ipsum cumque numquam cum possimus?</p>
+        <h3>a esquerda, geralmente é padrão</h3>
+        <p id="eight">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis provident labore delectus. Vel possimus unde dignissimos distinctio praesentium omnis. Optio nihil delectus mollitia illo assumenda iste qui hic excepturi temporibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima autem neque sed, ea impedit molestiae optio quas, quod odit sunt, veritatis vel porro. Explicabo laborum quis illum ipsam eos voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequatur, amet at nemo reiciendis provident? Officiis eius labore repellendus ab delectus quisquam autem quibusdam officia, ipsa placeat vero aliquid eligendi.</p>
+    </main>
+<footer><a href="../../default.asp">inicial</a></footer>    
+</body>
+</html>

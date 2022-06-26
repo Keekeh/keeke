@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>stream</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<script>
+	function update(stream){
+		document.getElementsByTagName('video')[0].src = stream.url;
+	}
+	</script>
+	<p>To start chatting, select a video camera: <device type="media" onchange="update(this.data)"></p>
+		<video autoplay />
+</body>
+</html>
