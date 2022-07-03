@@ -1,0 +1,15 @@
+---
+O Arquivo "adovbs.inc" deve ser diponibilizado para download, caso contrario o codigo
+não funciona!!!
+---
+---
+
+Nome do artigo Inserir dados de formulário em um Banco de Dados
+Autor do artigo "form.doc"
+
+
+por: 	Vinícius Nascimento
+
+indhio@hotmail.com
+indhio@iteca.com.br
+--------------------------------
