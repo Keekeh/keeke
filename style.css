@@ -40,7 +40,7 @@ header > h1{
     font-family: var(--fonte-titulos);
 }
 nav{
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     padding: 20px 10px 6px 10px;
     text-align: justify;
 }
@@ -88,7 +88,7 @@ aside{
     background-image: linear-gradient(0deg, var(--cor1), var(--cor2));
 }
 footer{
-    background-color: var(--cor1);
+    background-color: var(--cor3);
     margin: auto;
     max-width: 730px;
     min-width: 120px;
@@ -96,5 +96,5 @@ footer{
 }
 h1{
     font-family: var(--fonte-titulos);
-    color: var(--cor4);
+    color: var(--cor3);
 }
