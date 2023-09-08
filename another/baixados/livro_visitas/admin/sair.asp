@@ -1,6 +1,0 @@
-<%
-'Encerramos a seção criada pelo usuário
-Session.Abandon()
-'redirecionamos ele para a página principal
-response.Redirect("index.asp")
-%>
