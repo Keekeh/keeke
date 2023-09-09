@@ -70,7 +70,7 @@ a:hover{
     box-shadow: #000 3px 3px;
 }
 main{
-    max-width: 400pt;
+    max-width: 40%;
     min-width: 40pt;
     text-align: justify;
     min-height: 80%;
@@ -90,11 +90,14 @@ footer{
     min-height:min-content;
     height: 30px;
     margin:auto;
-    margin-bottom: 0%;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     box-shadow: #000 5px 5px;
     border-radius: 3px;
+}
+ul{
+    list-style-type: '\21A0';
 }
