@@ -1,0 +1,100 @@
+@charset "UTF8";
+@font-face {
+    font-family: 'comic';
+    src: url(keekeh/fonts/acmesa.TTF) format('truetype');
+}
+@font-face {
+    font-family: 'spidey';
+    src: url(keekeh/fonts/HOMOARAK.TTF) format('truetype');
+}
+@font-face {
+    font-family: 'blip';
+    src: url(keekeh/fonts/TimKid.ttf) format('truetype');
+}
+:root{
+    --fontea: 'comic', sans-serif;
+    --fonteb: 'Spidey', sans-serif;
+    --fontec: 'blip', sans-serif;
+    --cor01:#A3160F;
+    --cor02:#E3F046;
+    --cor03:#F0372E;
+    --cor04:#1688F0;
+    --cor05:#1760A3;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    background-image:linear-gradient(45deg,var( --cor01), var(--cor03),var(--cor05));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+header{
+    max-height: 80pt;
+    min-height: 40pt;
+    text-align: center;
+    margin-top: 1em;
+}
+h1{
+    font-size: 30pt;
+    font-family: var(--fonteb);
+
+}
+nav{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+a{
+    border-radius: 2px;
+    width:fit-content;
+    height:fit-content;
+    font-size:20px;
+    font-style: italic;
+    text-shadow: #00000048 3px 3px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #1688F0;
+    box-shadow: #000 3px 3px;
+}
+main{
+    max-width: 400pt;
+    min-width: 40pt;
+    text-align: justify;
+    min-height: 80%;
+    max-height: 550px;
+    overflow-y:auto;
+    margin:auto;  
+    padding: 3%;
+    text-indent: 12pt;
+    font-family: var(--fontea);
+}
+footer{
+    font-family: var(--fontec);
+    background-color:#a3160f2c;
+    text-align: center;
+    color:#000;
+    width: 60%;
+    min-height:min-content;
+    height: 30px;
+    margin:auto;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: #000 5px 5px;
+    border-radius: 3px;
+}
