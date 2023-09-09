@@ -70,7 +70,7 @@ a:hover{
     box-shadow: #000 3px 3px;
 }
 main{
-    max-width: 40%;
+    max-width: 600px;
     min-width: 40pt;
     text-align: justify;
     min-height: 80%;
